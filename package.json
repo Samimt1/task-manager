@@ -1,0 +1,12 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace backend",
+    "dev:frontend": "npm run dev --workspace frontend",
+    "db:setup": "npm run db:setup --workspace backend",
+    "test": "npm test --workspace backend",
+    "build": "npm run build --workspace frontend"
+  }
+}
