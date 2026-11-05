@@ -20,7 +20,7 @@ In pgAdmin's Query Tool connected to the default `postgres` database, run:
 CREATE DATABASE task_manager;
 ```
 
-Alternatively, if PostgreSQL command-line tools are on PATH:
+Alternatively, if PostgreSQL command-line tools are on PATH
 
 ```powershell
 psql -U postgres -c "CREATE DATABASE task_manager;"
