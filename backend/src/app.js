@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { statuses, validateTask } from './validation.js';
 
-// Inject the database so API behavior can be tested without a live server.
+
 export function createApp(db) {
   const app = express();
   app.use(cors({ origin: process.env.FRONTEND_URL || 'http://localhost:3000' }));
